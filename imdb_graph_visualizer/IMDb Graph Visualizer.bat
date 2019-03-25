@@ -1,0 +1,1 @@
+java -jar -Dprism.forceGPU=true -Dfile.encoding=UTF-8 IMDbGraphVisualizer.jar
