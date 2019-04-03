@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IMDbGraphVisualizer.jnlp">
+  <information>
+    <title>IMDbGraphVisualizer</title>
+    <vendor>Unknown</vendor>
+    <description>IMDbGraphVisualizer</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IMDbGraphVisualizer.jar" size="56383" download="eager" />
+    <jar href="javafx-swt.jar" size="36811" download="eager" />
+    <jar href="javafx.base.jar" size="749889" download="eager" />
+    <jar href="javafx.controls.jar" size="2511137" download="eager" />
+    <jar href="javafx.fxml.jar" size="127395" download="eager" />
+    <jar href="javafx.graphics.jar" size="4295861" download="eager" />
+    <jar href="javafx.media.jar" size="270594" download="eager" />
+    <jar href="javafx.swing.jar" size="119848" download="eager" />
+    <jar href="javafx.web.jar" size="714741" download="eager" />
+    <jar href="json-20140107.jar" size="64952" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1920" height="1080" main-class="app.view.MainView"  name="IMDbGraphVisualizer" />
+  <update check="background"/>
+</jnlp>
